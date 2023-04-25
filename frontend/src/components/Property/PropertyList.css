@@ -1,0 +1,150 @@
+.property-list {
+  margin:2em;
+  margin-top: 5em;
+}
+
+.property-list .box {
+  background-color: rgb(252, 248, 248);
+  position: relative;
+  margin-bottom: 2em;
+} 
+
+.property-list img {
+  height: 20em !important;
+  width: 100% !important;
+}
+.link_to_details {
+  text-decoration: none;
+  color: black;
+}
+.link_to_details:hover {
+  text-decoration: none;
+  color: black;
+}
+.search {
+  margin-right: 3%;
+  margin-left:3%;
+}
+.property-list .box .top {
+  position: relative;
+  background-color: white;
+} 
+
+.property-list .box .top:hover:after {
+  opacity: 1;
+}
+
+.property-list .box .top img {
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+.property-list .box .top .carousel > span {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.fav {
+  top:0;
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+
+.approved_status {
+  top:0;
+  position: absolute;
+  right: 20px;
+  color: white;
+}
+.property-list .carousel-control-next {
+  right: 0;
+  margin-top: 2em;
+  top: 0;
+  bottom: 0;
+}
+
+.property-list .box .top span i {
+  margin-left: 5px;
+}
+
+.property-list .box .bottom {
+  padding: 20px 15px;
+  position: relative;
+  text-align:center;
+}
+
+.property-list .box .bottom h3 {
+  font-size: 15px;
+}
+
+.property-list .box .bottom > p {
+  margin: 15px 0;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #777;
+}
+
+.property-list .box .bottom .advants {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.property-list .box .bottom .advants > div {
+  margin-right: 15px;
+}
+
+.property-list .box .bottom .advants > div > span {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.property-list .box .bottom .advants > div > div {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.property-list .box .bottom .advants > div > div i {
+  color: #777;
+  font-size: 22px;
+}
+
+.property-list .box .bottom .advants > div > div > span {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.property-list .box .bottom .advants > div > div > span > span {
+  color: #777;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.property-list .box .bottom .price {
+  margin-top: 20px;
+}
+
+.property-list .box .bottom .price > span:first-of-type {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.property-list .box .bottom .price > span:last-of-type {
+  color: #3eaba1;
+  font-size: 22px;
+}
+
+.bid_status {
+  display: inline;
+}
+

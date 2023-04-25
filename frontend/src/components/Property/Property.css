@@ -1,0 +1,111 @@
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  
+  max-height: 400x !important;
+}
+.item{
+text-align:center;
+}
+.carousel-inner img{
+display:inline-block  !important;
+}
+.favlist {
+  top:0;
+  
+  right: 50px;
+  bottom: 500px;
+  color: rgb(248, 240, 240);
+  font-size: 20px;
+}
+
+.carousel-image{
+   padding: 1.5px;
+  width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+th, tr {
+  text-align: center;
+}
+
+.details{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  line-height: 3;
+}
+.bid-button{
+  color: #fff;
+ 
+  border-color: #161616;
+  margin: 0;
+  padding: 0;
+}
+
+.bidding{
+  background-color: rgb(27, 26, 26);
+  border: rgb(17, 15, 15);
+  border-radius: 10px;
+  display: flex;
+  justify-content:center;
+}
+.bid-info{
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+.bidding-div{
+  display: flex;
+  justify-content:right;
+
+}
+.bid-info{
+  display: flex;
+  justify-content: center;
+  background-color: seashell;
+  align-items: center;
+}
+
+.card-header{
+  display: flex;
+    justify-content: center;
+}
+.div-orginize{
+  display: flex;
+  justify-content: space-between;
+}
+
+.property_street {
+  margin-bottom: 1em;
+}
+.Property_details {
+  margin:2em;
+}
+
+.text-center {
+  margin-bottom: 2em;
+}
+.top_details{
+  margin-bottom: 2em;
+}
+.price  {
+  font-weight: 700;
+}
+
+
+@media only screen and  (max-width: 900px)  {
+  .bid-info{
+    display: flex;
+    justify-content: left;
+    /* flex-direction: column; */
+  }
+  .bidding-div{
+    display: flex;
+    justify-content:left ;
+  
+  }
+
+}
