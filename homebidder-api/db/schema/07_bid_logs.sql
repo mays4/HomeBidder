@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS bid_logs CASCADE;
+
+CREATE TABLE bid_logs (
+  id SERIAL PRIMARY KEY NOT NULL,
+  bidder_registration_id INTEGER REFERENCES bidder_registrations(id) ON DELETE CASCADE,
+  amount INTEGER  NOT NULL,
+  bids_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
