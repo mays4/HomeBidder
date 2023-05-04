@@ -16,7 +16,7 @@ module.exports = ({
   updateBidStatusAccepted,
   updateBidStatusRejected,
   getNotifications,
-  getUnreadNotifications,
+  getUnReadNotifications,
   confirmNotificationRead,
   addNotification
 
